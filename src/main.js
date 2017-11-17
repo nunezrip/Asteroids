@@ -101,7 +101,7 @@ function gameLoop() {
 				document.getElementById('healthCounter').innerHTML = 'GAME OVER';
 				document.getElementById('ship').remove(); // ship disappears
 			}
-			var audio = new Audio('./audio/explosion.wav'); // load explosion sound (creative commons license: https://www.freesound.org/people/Veiler/sounds/264031/)
+			var audio = new Audio('audio/explosion.wav'); // load explosion sound (creative commons license: https://www.freesound.org/people/Veiler/sounds/264031/)
 			audio.play(); // play explosion sound
 			arrayOfMovingAsteroids[i].remove(); // asteroid disappears
 		}
